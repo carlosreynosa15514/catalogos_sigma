@@ -1,6 +1,6 @@
 body {
-    background: lightgrey;
-    background-image: url("../img/Wood1.jpg");
+    background: #abcbdd;
+    /* background-image: url("../img/gray_back1.jpg"); */
 }
 
 .container {
@@ -11,7 +11,8 @@ header {
     background-color: brown;
     opacity: .8;
     width: 100%;
-    margin: 0px auto;
+    height: 70px;
+    margin: auto;
     color: white;
 }
 
@@ -20,11 +21,22 @@ header.submenu {
 }
 
 img {
-    margin: 10px;
+    margin: 5px;
     width: 100px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(241, 140, 133);
+}
+
+img:hover {
+    box-shadow: 5px 5px 10px rgb(14, 19, 85);
 }
 
 hr {
     background-color: brown;
     border: 1px solid red;
+}
+
+table {
+    border: 1px solid black;
+    bor
 }
